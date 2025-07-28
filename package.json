@@ -7,14 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@soniox/speech-to-text-web": "^1.0.0",
     "next": "^15.4.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "24.1.0",
-    "@types/react": "19.1.8",
-    "typescript": "5.8.3"
+    "react-dom": "^18.2.0",
+    "@soniox/speech-to-text-web": "^1.0.6"
   }
 }
