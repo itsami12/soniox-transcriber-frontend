@@ -98,11 +98,10 @@ export default function DebugRecorder() {
       console.log("🚀 Starting recording with enhanced debugging...");
 
       rec.start({
-        model: "stt-rt-preview",
-        stream,
-        languageHints: ['en', 'ur'],
-        enable_automatic_punctuation: true,
-        enable_profanity_filter: false,
+      audio_format: "auto", // server detects the format
+      model: "stt-rt-preview",
+      language_hints: ["en", "ur"],
+        
         
         onResult: (result) => {
           console.log("🎯 FINAL RESULT RECEIVED:");
