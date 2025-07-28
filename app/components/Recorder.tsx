@@ -100,7 +100,7 @@ export default function DebugRecorder() {
       rec.start({
         model: "stt-rt-preview",
         stream,
-        language_hints: ['en', 'ur'],
+        languageHints: ['en', 'ur'],
         enable_automatic_punctuation: true,
         enable_profanity_filter: false,
         
